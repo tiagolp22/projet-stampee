@@ -13,20 +13,21 @@
 
 */
 
-:root {
+/* :root {
     --fonce: #051D1D;
     --vert-fonce: #476568;
     --danger: #A6775B ;
     --claire: #D9BCA3;
     --dore: #C6A619;
     --blanc: #F2F2F2;
-}
+} */
 
 /* Typo */
 
 /* Espacement */
 
 /* Composantes individuelles (Ex: bouton) */
+@import url("./components/navigation.css");
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 
