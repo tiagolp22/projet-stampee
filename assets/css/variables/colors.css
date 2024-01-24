@@ -1,0 +1,19 @@
+/* Couleurs
+
+#051D1D - foncé
+#476568 - vert foncé
+#A6775B - danger
+#D9BCA3 - claire
+#C6A619 - doré
+#F2F2F2 - blanc        
+
+*/
+
+:root {
+    --fonce: #051D1D;
+    --vert-fonce: #476568;
+    --danger: #A6775B ;
+    --claire: #D9BCA3;
+    --dore: #C6A619;
+    --blanc: #F2F2F2;
+}
