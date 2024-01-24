@@ -16,9 +16,33 @@ nav {
         }
     }
 
+    & .hamburger {
+        display: none;
+        cursor: pointer;
+        color: white;
+        
+    }
+
     @media screen and (max-width:768px){
         flex-direction: column;
         align-items: center;
+
+        & a {
+            display: none;
+        }
+
+        & .hamburger {
+            display: block;
+            
+        }
+
+        &[data-opened="true"] {
+            & a {
+                display: block;
+            }
+        }
+
+    
     }
 }
 
