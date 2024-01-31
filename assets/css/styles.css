@@ -9,6 +9,7 @@
 /* Typo */
 
 /* Espacement */
+@import url("variables/spacing.css");
 
 /* Composantes individuelles (Ex: bouton) */
 @import url("./components/navigation.css");
