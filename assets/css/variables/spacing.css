@@ -1,9 +1,6 @@
-:root{
-    --espacement-xxs:4px;
-    --espacement-xs:8px;
-    --espacement-x:12px;
-    --espacement-m:16px;
-    --espacement-l:20px;
-    --espacement-xl:24px;
-    --espacement-xxl:28px;
+:root {
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-s: 12px;
+    --space-m: 16px;
 }
