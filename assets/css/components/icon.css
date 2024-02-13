@@ -1,3 +1,14 @@
 .icon{
     margin-right: var(--space-xxs);
 }
+
+.footer_social-media {
+    fill: var(--vert-fonce);
+}
+
+.footer__logo {
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
