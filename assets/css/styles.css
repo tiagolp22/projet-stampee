@@ -21,6 +21,8 @@
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 @import url("./layout/general.css");
 @import url("./layout/grilleCarte.css");
+@import url("./layout/footer.css");
+
 /* Exceptions pour certaines pages */
 @import url("./components/carrousel.css");
 @import url("./pages/catalogue.css");

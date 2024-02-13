@@ -1,6 +1,7 @@
 
 
 .catalogue_body {
+
     display: grid;
     gap: 1rem;
     grid-template:
@@ -10,4 +11,26 @@
         "aside  main    main    main    main"
         "footer footer  footer  footer  footer";
     padding: 1rem;
+
+    & header {
+        grid-area: header;
+    }
+    & aside {
+        grid-area: aside;
+    }
+    & main {
+        grid-area: main;
+    }
+    & footer {
+        grid-area: footer;
+    }
 }
+
+.main-grid__tuile {
+    display: grid;
+}
+
+* {
+    border: 2px solid blue !important; 
+}
+
