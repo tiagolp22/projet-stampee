@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Inknut_Antiqua";
+    src: 
+    url("../../fonts/Inknut_Antiqua/InknutAntiqua-Bold.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Krub";
+    src: 
+    url("../../fonts/Krub/Krub-Regular.ttf") format("truetype");
+}
+:root {
+    --police-principale: "Krub";
+    --police-xxs: 0.694rem;
+    --police-xs: 0.833rem;
+    --police-s: 1rem;
+
+    --police-secondaire:"Inknut_Antiqua";
+}
+
+p {
+    font-family: var(--police-principale);
+}
+
+h1, h2, h3 {
+    font-family: var(--police-secondaire);
+}
