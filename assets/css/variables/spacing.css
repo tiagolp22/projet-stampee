@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     /* Desktop first */
     --media-wide: 1400px;
@@ -6,3 +7,11 @@
     --media-tablet-portrait: 768px;
     --media-phone: 480px;
 }
+=======
+:root {
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-s: 12px;
+    --space-m: 16px;
+}
+>>>>>>> caff1a70e6a04549eef568bc0676cae89cc8a84a
