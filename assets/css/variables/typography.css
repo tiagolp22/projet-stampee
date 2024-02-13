@@ -14,6 +14,9 @@
     --police-xxs: 0.694rem;
     --police-xs: 0.833rem;
     --police-s: 1rem;
+    --police-m: 2rem;
+    --police-g: 3rem;
+    --police-xg: 4rem;
 
     --police-secondaire:"Inknut_Antiqua";
 }

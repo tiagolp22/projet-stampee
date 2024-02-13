@@ -9,14 +9,15 @@
       
       li {
         color: var(--blanc);
-        font-family: var();
+        font-family: var(--police-principale);
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
       }
       
       li a {
         display: block;
-        
-        text-align: center;
         gap: var(--space-m);
+        text-align: center;
         text-decoration: none;
       }
     
