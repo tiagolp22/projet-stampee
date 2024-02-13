@@ -1,0 +1,51 @@
+/* Variables */
+@import url("../variables/reset.css");
+@import url("../variables/mediaqueries.css");
+
+
+/* Couleurs */
+@import url("../variables/colors.css");
+/* Typo */
+@import url("../variables/typography.css");
+
+/* Espacement */
+@import url("../variables/spacing.css");
+
+/* Composantes individuelles (Ex: bouton) */
+@import url("../components/navigation.css");
+@import url("../components/icon.css");
+@import url("../components/button.css");
+@import url("../components/card.css");
+
+/* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
+@import url("../layout/general.css");
+@import url("../layout/grilleCarte.css");
+/* Exceptions pour certaines pages */
+@import url("../components/carrousel.css");
+
+body{
+    background-color: var(--fonce);
+    color: var(--blanc);
+}
+
+.page-produit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0;
+    grid-template-rows: repeat(3, 0) repeat(2, 1fr);
+    grid-column-gap: 1;
+    grid-row-gap: 1;
+    }
+    
+    .timbre { grid-area: 4 / 1 / 5 / 2; }
+    .detail-produit { grid-area: 4 / 2 / 5 / 3; }
+    .produits-similaires { grid-area: 5 / 1 / 6 / 3; }
+
+.produits-similaires img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 5px; 
+    }
+
+
