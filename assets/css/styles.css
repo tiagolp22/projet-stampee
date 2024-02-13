@@ -18,6 +18,10 @@
 @import url("./components/button.css");
 @import url("./components/card.css");
 
+
+/*navigation principal*/
+@import url("components/navigation.css");
+
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 @import url("./layout/general.css");
 @import url("./layout/grilleCarte.css");
@@ -27,5 +31,7 @@
 /*Header*/
 @import url("layout/header.css");
 
-/*navigation principal*/
-@import url("components/navigation.css");
+
+
+/*Fomulaire de contact*/
+@import url("./layout/contact-form.css");

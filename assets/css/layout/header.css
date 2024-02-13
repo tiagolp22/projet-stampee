@@ -34,7 +34,7 @@
     background-color: color-mix(in oklab, var(--vert-fonce) 60%, var(--blanc) 40% ) ;
     border-radius: 1rem;
     color: var(--blanc);
-    font-size: var(--police-m);
+    font-size: 1.4rem;
     height: 2rem;
     line-height: 2rem;
     padding: 1rem;
