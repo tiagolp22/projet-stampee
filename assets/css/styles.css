@@ -23,6 +23,7 @@
 @import url("./layout/grilleCarte.css");
 /* Exceptions pour certaines pages */
 @import url("./components/carrousel.css");
+@import url("./pages/catalogue.css");
 
 /*Header*/
 @import url("layout/header.css");
