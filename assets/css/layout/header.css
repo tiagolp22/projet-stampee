@@ -1,0 +1,19 @@
+.header-top{
+    background-color: var(--fonce);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.header-top__superieur {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-top_img{
+    max-width: 20rem;
+}
+
+

@@ -1,48 +1,22 @@
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    background-color: var(--fonce);
-    padding: 4rem;
 
-    & a {
-        color:white;
-        &:hover {
-            color: turquoise;
-        }
-        &:visited {
-            color: teal;
-        }
-    }
-
-    & .hamburger {
-        display: none;
-        cursor: pointer;
-        color: white;
-        
-    }
-
-    @media screen and (max-width:768px){
-        flex-direction: column;
-        align-items: center;
-
-        & a {
-            display: none;
-        }
-
-        & .hamburger {
-            display: block;
-            
-        }
-
-        &[data-opened="true"] {
-            & a {
-                display: block;
-            }
-        }
-
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center ;
     
-    }
-}
-
+      }
+      
+      li {
+        color: var(--blanc);
+        font-family: var();
+      }
+      
+      li a {
+        display: block;
+        
+        text-align: center;
+        gap: var(--space-m);
+        text-decoration: none;
+      }
+    
