@@ -1,18 +1,19 @@
 .button {
     width: fit-content;
     padding: var(--space-s);
-    background-color: var(--coul-accent);
-    color: var(--coul-noir);
+    margin-top: var(--space-s);
+    background-color: var(--dore);
+    color: var(--fonce);
     border-radius: 15px;
-    box-shadow: 10px 10px 10px var(--coul-noir);
+    box-shadow: 10px 10px 10px var(--fonce);
     cursor: pointer;
 
     &:hover {
-        background-color: var(--coul-secondaire-fonce);
+        background-color: var(--blanc);
     }
 
     &.inactive {
-        background-color: var(--coul-muted);
+        background-color: var(--vert-fonce);
         pointer-events: none;
         cursor: none;
     }

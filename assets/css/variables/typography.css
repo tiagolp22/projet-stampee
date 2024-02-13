@@ -8,6 +8,7 @@
     font-family: "Krub";
     src: 
     url("../../fonts/Krub/Krub-Regular.ttf") format("truetype");
+   
 }
 :root {
     --police-principale: "Krub";
@@ -23,8 +24,10 @@
 
 p {
     font-family: var(--police-principale);
+    line-height: 2rem;
 }
 
 h1, h2, h3 {
     font-family: var(--police-secondaire);
+    line-height: 2rem;
 }

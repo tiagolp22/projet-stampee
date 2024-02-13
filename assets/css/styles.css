@@ -15,7 +15,7 @@
 /* Composantes individuelles (Ex: bouton) */
 @import url("./components/navigation.css");
 @import url("./components/icon.css");
-@import url("./components/button.css");
+@import url("./components/bouton.css");
 @import url("./components/card.css");
 
 
