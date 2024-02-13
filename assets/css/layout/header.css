@@ -5,7 +5,6 @@
 
 }
 
-
 .header-top__superieur {
     display: flex;
     justify-content: space-around;
@@ -13,7 +12,32 @@
 }
 
 .header-top_img{
-    max-width: 20rem;
+    max-width: 12rem;
 }
 
+.header-top_icons{
+    display: flex;
+    gap: var(--space-m);
+}
+
+.icon_img1 {
+    color: var(--dore);
+}
+
+.barre-recherche {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.barre-recherche__champ {
+    background-color: color-mix(in oklab, var(--vert-fonce) 60%, var(--blanc) 40% ) ;
+    border-radius: 1rem;
+    color: var(--blanc);
+    font-size: var(--police-m);
+    height: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+    width: 30rem;
+}
 
