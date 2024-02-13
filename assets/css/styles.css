@@ -20,3 +20,4 @@
 @import url("./layout/general.css");
 @import url("./layout/grilleCarte.css");
 /* Exceptions pour certaines pages */
+@import url("./components/carrousel.css");
