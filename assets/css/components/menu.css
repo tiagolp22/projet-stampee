@@ -1,0 +1,14 @@
+.aside_menu {
+    max-width: 20rem;
+    margin: var(--space-g);
+}
+
+.aside_menu__form {
+    color: var(--blanc);
+    display: flex;
+    flex-direction: column;
+}
+
+.aside_menu__input_range {
+    max-width: 10rem;
+}
