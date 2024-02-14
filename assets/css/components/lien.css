@@ -1,3 +1,9 @@
 a {
     text-decoration: none;
 }
+
+a:hover{
+    background-color: var(--dore);
+    border-radius: 1rem;
+    padding: 1rem;
+}
