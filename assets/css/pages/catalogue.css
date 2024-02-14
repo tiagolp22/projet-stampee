@@ -1,28 +1,20 @@
 
 
-.catalogue_body {
+.main-grid {
 
     display: grid;
     gap: 1rem;
     grid-template:
-        "header header  header  header  header"
         "aside  main    main    main    main"
         "aside  main    main    main    main"
-        "aside  main    main    main    main"
-        "footer footer  footer  footer  footer";
+        "aside  main    main    main    main";
     padding: 1rem;
 
-    & header {
-        grid-area: header;
-    }
     & aside {
         grid-area: aside;
     }
     & main {
         grid-area: main;
-    }
-    & footer {
-        grid-area: footer;
     }
 }
 
