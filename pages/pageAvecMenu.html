@@ -67,29 +67,48 @@
           class="aside_menu__input_range"
         />
 
-        <label>Pays </label>
-        <input
-          type="range"
-          name="prix"
-          min="1"
-          max="10.000"
-          class="aside_menu__input_range"
-        />
+        <div class="aside_menu_input_pays">
+          <p>Pays</p>
+          <select name="pays">
+            <option value=""></option>
+            <option value="Afrique du Sud">Afrique du Sud</option>
+            <option value="Brésil">Brésil</option>
+            <option value="Canada">Canada</option>
+            <option value="Danemark">Danemark</option>
+            <option value="Finlande">Finlande</option>
+            <option value="Grèce">Grèce</option>
+            <option value="Honduras">Honduras</option>
+            <option value="Italie">Italie</option>
+          </select>
+        </div>
 
-        <p>Condition</p>
-        <input
-          type="range"
-          name="prix"
-          min="1"
-          max="10.000"
-          class="aside_menu__input_range"
-        />
+        <div>
+          <p>Condition</p>
+          <div class="aside_menu_input_condition">
+            <div class="aside_menu_input_condition_option">
+              <input type="checkbox" name="nouveau" value="Nouveau" />
+              <label> Nouveau</label>
+            </div>
+            <div class="aside_menu_input_condition_option">
+              <input type="checkbox" name="bon_etat" value="Bon état" />
+              <label> Bon état</label>
+            </div>
+            <div class="aside_menu_input_condition_option">
+              <input type="checkbox" name="endomage" value="Endomagé" />
+              <label> Endomagé</label>
+            </div>
+          </div>
+        </div>
 
-        <p>Authentifié?</p>
-        <input type="radio" name="Oui" value="Oui" />
-          <label>Oui</label><br />
-          <input type="radio" name="non" value="Non" />   <label>Non</label
-        ><br />
+        <div class="aside_menu_input_autentication">
+          <p>Authentifié?</p>
+          <div class="aside_menu_input_autentication_options">
+            <input type="radio" name="Oui" value="Oui" />
+              <label>Oui</label><br />
+              <input type="radio" name="non" value="Non" />
+            <label>Non</label>
+          </div>
+        </div>
 
         <button type="submit" class="btn">Soumettre</button>
       </form>

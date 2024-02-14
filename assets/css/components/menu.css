@@ -3,6 +3,10 @@
     margin: var(--space-g);
 }
 
+.aside_menu p{
+    font-size: var(--police-s);
+}
+
 .aside_menu__form {
     color: var(--blanc);
     display: flex;
@@ -10,5 +14,30 @@
 }
 
 .aside_menu__input_range {
+    margin: var(--space-s);
     max-width: 10rem;
+}
+
+
+.aside_menu_input_pays{
+    margin: var(--space-s);
+}
+
+.aside_menu_input_autentication{
+    margin: var(--space-s);
+}
+
+.aside_menu_input_autentication_options {
+    display: flex;
+}
+
+.aside_menu_input_condition{
+    display: flex;
+    flex-direction: column;
+    margin: var(--space-s);
+
+}
+
+.aside_menu_input_condition_option{
+    margin: var(--space-s);
 }
