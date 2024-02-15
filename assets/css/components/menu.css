@@ -13,13 +13,28 @@
     flex-direction: column;
 }
 
+.aside_menu__form span{
+    font-size: 0.6rem;
+}
+
 .aside_menu__input_range {
     margin: var(--space-s);
     max-width: 10rem;
 }
 
+.aside_menu_input_annee {
+    margin: var(--space-s);
+    margin-left: -1px;
+}
 
 .aside_menu_input_pays{
+    margin: var(--space-s);
+    margin-left: -1px;
+    
+}
+
+.aside_menu_input_pays_select {
+    width: 10rem;
     margin: var(--space-s);
 }
 
