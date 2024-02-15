@@ -1,6 +1,6 @@
 .header-top{
     background-color: var(--fonce);
-    box-shadow: 0px 1px 13px -2px var(--dore);
+    box-shadow: 0px 2px 1px 2px black;
     display: flex;
     flex-direction: column;
 
@@ -19,6 +19,8 @@
 .header-top_icons{
     display: flex;
     gap: var(--space-m);
+    font-size: 25px;
+    cursor: pointer;
 }
 
 .icon_img1 {
@@ -29,6 +31,11 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    & i {
+        font-size: 25px;
+        cursor: pointer;
+}
 }
 
 .barre-recherche__champ {
@@ -39,6 +46,16 @@
     height: 2rem;
     line-height: 2rem;
     padding: 1rem;
-    width: 30rem;
+    width: 30rem; 
+
 }
 
+.header-nav{
+
+    & ul {
+        
+        & li {
+            cursor: pointer;
+        }
+    }
+}
