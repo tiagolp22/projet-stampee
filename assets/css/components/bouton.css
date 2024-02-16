@@ -8,6 +8,7 @@
     box-shadow: 10px 10px 10px var(--fonce);
     cursor: pointer;
 
+
     &:hover {
         background-color: var(--blanc);
     }

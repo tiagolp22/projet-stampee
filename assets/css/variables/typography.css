@@ -27,7 +27,7 @@ p {
     line-height: 2rem;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: var(--police-secondaire);
     line-height: 2rem;
 }
@@ -42,4 +42,8 @@ h2 {
 
 h3{
     font-size: var(--police-s);
+}
+
+h4{
+    font-size: var(--police-xs);
 }
