@@ -18,6 +18,7 @@ body{
     background-color: var(--blanc);
     width: fit-content;
     padding: var(--space-s) var(--space-mg) var(--space-mg) var(--space-mg);
+    border-radius: 15px;
     
 }
 
@@ -26,6 +27,7 @@ body{
     max-width: 100%;
     max-height: 140px;
     object-fit:contain;
+    border-radius: 15px;
 }
 
 .main-grid__tuile {
