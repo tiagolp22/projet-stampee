@@ -13,6 +13,10 @@
         background-color: var(--blanc);
     }
 
+    &:focus {
+        background-color: var(--vert-fonce);
+    }
+
     &.inactive {
         background-color: var(--vert-fonce);
         pointer-events: none;
