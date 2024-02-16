@@ -25,6 +25,7 @@
 p {
     font-family: var(--police-principale);
     line-height: 2rem;
+    font-size: var(--police-xs);
 }
 
 h1, h2, h3, h4 {
