@@ -39,6 +39,7 @@ body{
 .main-grid__tuile .btn {
     align-self: flex-end;
     margin: 0 auto;
+    margin-top: var(--space-s);
 
 }
 
