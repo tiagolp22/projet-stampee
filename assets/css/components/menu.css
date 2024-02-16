@@ -20,31 +20,28 @@
 .aside_menu__input_range {
     margin: var(--space-s);
     max-width: 10rem;
+    accent-color: var(--dore);
 }
 
 .aside_menu_input_annee {
     margin: var(--space-s);
     margin-left: -1px;
+    accent-color: var(--dore);
 }
 
 .aside_menu_input_pays{
     margin: var(--space-s);
     margin-left: -1px;
     
+    
 }
 
 .aside_menu_input_pays_select {
     width: 10rem;
     margin: var(--space-s);
+    accent-color: var(--dore);
 }
 
-.aside_menu_input_autentication{
-    margin: var(--space-s);
-}
-
-.aside_menu_input_autentication_options {
-    display: flex;
-}
 
 .aside_menu_input_condition{
     display: flex;
@@ -55,4 +52,14 @@
 
 .aside_menu_input_condition_option{
     margin: var(--space-s);
+    accent-color: var(--dore);
+}
+
+.aside_menu_input_autentication{
+    margin: var(--space-s);
+}
+
+.aside_menu_input_autentication_options {
+    display: flex;
+    accent-color: var(--dore);
 }
