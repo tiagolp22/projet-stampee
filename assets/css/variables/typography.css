@@ -12,6 +12,7 @@
 }
 :root {
     --police-principale: "Krub";
+    --police-xxxs: 0.346rem;
     --police-xxs: 0.694rem;
     --police-xs: 0.833rem;
     --police-s: 1.4rem;
@@ -47,4 +48,9 @@ h3{
 
 h4{
     font-size: var(--police-xs);
+}
+
+.btn {
+    font-size: var(--police-xxs);
+    font-family: var(--police-secondaire);
 }
