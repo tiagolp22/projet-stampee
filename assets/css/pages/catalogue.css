@@ -1,29 +1,45 @@
+@import url("../styles.css");
+
 body{
     background-color: var(--fonce)
 }
 
 
 .main-grid {
-
     display: grid;
-    gap: 1rem;
-    grid-template:
-        "aside  main    main    main    main"
-        "aside  main    main    main    main"
-        "aside  main    main    main    main";
-    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--space-mg);
+    padding: var( --space-g) var(  --space-g) var( --space-g) var( --space-g); 
 
-    & aside {
-        grid-area: aside;
-    }
-    & main {
-        grid-area: main;
-    }
 }
 
 .main-grid__tuile {
-    display: grid;
+    background-color: var(--blanc);
+    width: fit-content;
+    padding: var(--space-s) var(--space-mg) var(--space-g) var(--space-mg);
+    
 }
+
+.main-grid__tuile img {
+    width: 13vw;
+    height: 20vh;
+    object-fit:contain;
+}
+
+.main-grid__tuile {
+    position: relative;
+    margin: 0 auto;
+    height: 35vh;
+}
+
+.main-grid__tuile .btn {
+    position: absolute;
+}
+
+
+
+
+
 
 /* * {
     border: 2px solid blue !important; 
