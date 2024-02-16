@@ -43,3 +43,7 @@
 /* Page Produit */
 @import url("./layout/produit.css");
 
+/* Page index */
+@import url("./layout/index.css");
+@import url("./layout/hero.css");
+

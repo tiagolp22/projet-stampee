@@ -50,7 +50,7 @@
 
 }
 
-.fa-bars{
+.fa-bars {
     opacity: 0%;
     font-size: 25px;
     color: var(--dore);
@@ -63,9 +63,18 @@
 
         & li {
             cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            font-family: var(--police-secondaire);
         }
+
+    }
+
+    & li:hover {
+        color: var(--dore);
     }
 }
+
+
 
 @media only screen and (max-width: 1000px) {
     header {
@@ -79,11 +88,13 @@
 @media only screen and (max-width: 700px) {
     header {
 
-        & .header-top_icons, ul, .fa-magnifying-glass {
+        & .header-top_icons,
+        ul,
+        .fa-magnifying-glass {
             display: none;
         }
 
-        & .fa-bars{
+        & .fa-bars {
             display: flex;
             align-items: center;
             justify-content: center;
