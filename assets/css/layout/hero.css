@@ -20,7 +20,7 @@
         font-size: 8rem;
     
         z-index: 4;
-        background-image: url("../../img/photos/sennaf1.png");
+        /* background-image: url("../../img/photos/sennaf1.png"); */
         background-size: cover;
         background-clip: text;
         color: transparent;
