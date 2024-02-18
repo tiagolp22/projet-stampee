@@ -1,0 +1,77 @@
+  
+  /*Grid area*/
+  .main-index {
+    padding: 40px;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "index-hero"
+      "index-encheres"
+      "index-services"
+      "nouvelles"; 
+  }
+  .index-hero { grid-area: index-hero; }
+  .index-encheres { grid-area: index-encheres; }
+  .index-services { grid-area: index-services; }
+  .nouvelles { grid-area: nouvelles; }
+
+  .index-hero {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "index-hero-photo encheres-jour"
+      "index-hero-photo encheres-jour"
+      "index-hero-photo encheres-jour"; 
+    grid-area: index-hero; 
+  }
+  .index-hero-photo { grid-area: index-hero-photo; }
+  .encheres-jour { grid-area: encheres-jour; }
+  .index-encheres {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . ."; 
+    grid-area: index-encheres; 
+  }
+  .index-services {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."; 
+    grid-area: index-services; 
+  }
+  .nouvelles {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."; 
+    grid-area: nouvelles; 
+  }
+
+  /* */
+  .main-index{
+    & img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+  }
+
+  .index-hero{
+    display: flex;
+    justify-content: center;
+  }
+
+  .index-hero-photo{
+    display: flex;
+    flex-direction: column;
+  }
