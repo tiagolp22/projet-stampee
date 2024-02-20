@@ -1,161 +1,187 @@
-
-  /*Grid area*/
-  .main-index {
-    padding: 2.5rem;
-    color: var(--blanc);
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-
-
-  }
- 
-  .index-hero {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    gap: 8rem; 
-    margin: 2rem;
-    background-color: var(--vert-fonce);
-    border-radius: 1rem;
-    padding: 1rem;
-
-    & a{
-      color: var(--dore);
-    }
-      
-  }
-
-  .hero-photo {
-
-    max-width: 30rem;
-
-  }
-  .index-hero h2{
-    color: var(--dore);
-    padding: 1rem;
-  }
-
-  .index-hero-photo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100vw;
-    
-  }
-
-  .index-hero-photo_fleches{
-    display: none;
-    justify-content: center;
-    position: absolute;
-    cursor: pointer;
-    gap: 12rem;
-    padding: 2rem;
-    z-index: 999;
-    
-    & i {
-      color: var(--dore);
-      font-size: 6rem;
-      
-    }
-  } 
-  
-  .index-hero-photo:hover .hero-photo{
-    position: relative;
-    filter: brightness(0.5);
-    
-  }
-
-  .index-hero-photo:hover .index-hero-photo_fleches{
-    display: flex;
-  }
-
-  .enchere_description  {
-    padding: 1rem;
-    
-  }
-  .vedette-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 1rem;
-  }
-
-  .vedette-p img{
-    max-width: 6rem;
-  }
+/*Grid area*/
+.main-index {
+  padding: 2.5rem;
+  color: var(--blanc);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
 
 
-  /* Section Encheres actives*/
-  
-  .index-encheres {
-    display: flex; 
-    flex-direction: column;
-    gap: 0px 0px; 
+}
 
-  }
+.index-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  margin: 2rem;
+  background-color: var(--vert-fonce);
+  border-radius: 1rem;
+  padding: 1rem;
 
-  .index-encheres h2{
-    color: var(--dore);
-    padding: 2rem;
-  }
-
-  .index-encheres_gallerie {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2rem;
-    background-color: var(--dore);
-    border-radius: 1rem;
-    margin: 2rem;
-    
-  }
-
-  .encheres-photo img{
-    max-width: 10rem;
-    border-radius: 1rem;
-  }
-
-
-  .index-services {
-    display: flex; 
-    justify-content: center;
- 
-  }
-  .index-services img{
-    max-width: 10rem;
-    padding: 2rem;
-    
-  }
-
-  .index-services_icones{
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-
-
-  .nouvelles {
-   display: flex;
-   flex-direction: column;
-   margin: 2rem;
-  }
-
-  .nouvelles h2{
+  & a {
     color: var(--dore);
   }
 
-  .nouvelles p {
-    font-size: 1.4rem;
-    padding: 1rem;
+}
+
+.hero-photo {
+  max-width: 30rem;
+  border-radius: 1rem;
+
+}
+
+.index-hero h2 {
+  color: var(--dore);
+  padding: 1rem;
+}
+
+.index-hero-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+
+}
+
+.index-hero-photo_fleches {
+  display: none;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+  gap: 12rem;
+  padding: 2rem;
+  z-index: 999;
+
+  & i {
+    color: var(--dore);
+    font-size: 6rem;
+
   }
+}
+
+.index-hero-photo:hover .hero-photo {
+  position: relative;
+  filter: brightness(0.5);
+
+}
+
+.index-hero-photo:hover .index-hero-photo_fleches {
+  display: flex;
+}
+
+.enchere_description {
+  padding: 1rem;
+
+}
+
+.vedette-photo {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+
+}
+
+.vedette-photo:hover {
+  transform: scale(1.1);
+}
+
+.vedette-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.vedette-p img {
+  max-width: 6rem;
+  border-radius: 1rem;
+}
 
 
+/* Section Encheres actives*/
+
+.index-encheres {
+  display: flex;
+  flex-direction: column;
+  gap: 0px 0px;
+
+}
+
+.index-encheres h2 {
+  color: var(--dore);
+  padding: 2rem;
+}
+
+.index-encheres_gallerie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6rem 2rem 6rem 2rem;
+  background-color: var(--dore);
+  border-radius: 1rem;
+  margin: 2rem;
+
+}
+
+.encheres-photo img {
+  max-width: 10rem;
+  max-height: 15rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.encheres-photo img:hover {
+  transform: scale(1.3);
+}
 
 
-  
+.index-services {
+  display: flex;
+  justify-content: center;
+
+}
+
+.index-services img {
+  max-width: 10rem;
+  padding: 2rem;
+
+}
+
+.index-services_icones {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.index-services_svg {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.index-services_svg:hover {
+  transform: scale(1.4);
+}
+
+.nouvelles {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.nouvelles h2 {
+  color: var(--dore);
+}
+
+.nouvelles p {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
