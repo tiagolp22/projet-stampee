@@ -15,8 +15,11 @@
     display: flex; 
     align-items: center;
     justify-content: center;
-    gap: 2rem; 
+    gap: 8rem; 
     margin: 2rem;
+    background-color: var(--vert-fonce);
+    border-radius: 1rem;
+    padding: 1rem;
 
     & a{
       color: var(--dore);
@@ -24,6 +27,11 @@
       
   }
 
+  .hero-photo {
+
+    max-width: 30rem;
+
+  }
   .index-hero h2{
     color: var(--dore);
     padding: 1rem;
@@ -38,21 +46,30 @@
     
   }
 
-  .hero-photo{
-    max-width: 1000px;
-  }
-
   .index-hero-photo_fleches{
-    display: flex;
+    display: none;
     justify-content: center;
-    gap: 5rem;
+    position: absolute;
+    cursor: pointer;
+    gap: 12rem;
     padding: 2rem;
+    z-index: 999;
     
     & i {
       color: var(--dore);
-      font-size: 3rem;
+      font-size: 6rem;
       
     }
+  } 
+  
+  .index-hero-photo:hover .hero-photo{
+    position: relative;
+    filter: brightness(0.5);
+    
+  }
+
+  .index-hero-photo:hover .index-hero-photo_fleches{
+    display: flex;
   }
 
   .enchere_description  {
@@ -72,36 +89,70 @@
   }
 
 
-  /* */
-  .index-hero-photo { grid-area: index-hero-photo; }
-  .encheres-jour { grid-area: encheres-jour; }
+  /* Section Encheres actives*/
+  
   .index-encheres {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
+    display: flex; 
+    flex-direction: column;
     gap: 0px 0px; 
-    grid-template-areas: 
-      ". . . ."; 
-    grid-area: index-encheres; 
+
   }
 
-  .index-services {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". . ."; 
-    grid-area: index-services; 
+  .index-encheres h2{
+    color: var(--dore);
+    padding: 2rem;
   }
+
+  .index-encheres_gallerie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: var(--dore);
+    border-radius: 1rem;
+    margin: 2rem;
+    
+  }
+
+  .encheres-photo img{
+    max-width: 10rem;
+    border-radius: 1rem;
+  }
+
+
+  .index-services {
+    display: flex; 
+    justify-content: center;
+ 
+  }
+  .index-services img{
+    max-width: 10rem;
+    padding: 2rem;
+    
+  }
+
+  .index-services_icones{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+
   .nouvelles {
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "."; 
-    grid-area: nouvelles; 
+   display: flex;
+   flex-direction: column;
+   margin: 2rem;
+  }
+
+  .nouvelles h2{
+    color: var(--dore);
+  }
+
+  .nouvelles p {
+    font-size: 1.4rem;
+    padding: 1rem;
   }
 
 
