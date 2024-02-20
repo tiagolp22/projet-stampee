@@ -19,8 +19,7 @@
 
   .index-hero {
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 2fr 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
       "index-hero-photo encheres-jour"
@@ -62,8 +61,8 @@
   .main-index{
     color: var(--blanc);
     & img {
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 60rem;
+        
     }
   }
 
@@ -73,6 +72,15 @@
   }
 
   .index-hero-photo{
+    
+  }
+
+  .vedette-p{
     display: flex;
-    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .vedette-p img{
+    max-width: 6rem;
   }
