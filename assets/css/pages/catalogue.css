@@ -48,6 +48,8 @@ body{
 .flex-container {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
+    gap: var(--space-xxg);
 }
 
 h4 {
