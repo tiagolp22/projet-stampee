@@ -47,3 +47,6 @@
 @import url("./layout/index.css");
 @import url("./layout/hero.css");
 
+/*page A propos*/
+@import url("./layout/apropos.css");
+
