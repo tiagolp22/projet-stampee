@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Un site d'enchères de timbre" />
+    <meta name="author" content="Agence" />
+    <meta name="keywords" content="">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -13,8 +16,10 @@
     <link
       rel="icon"
       href="./assets/img/logos/Stampee_logo_pale_header.svg"
-      type="image/x-icon"
+      type="image/x-icon" alt="logo Stampee"
     />
+    <!-- Pour production -->
+        <!-- <link rel="stylesheet" href="build/css/stylesfinaux.css"> -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Stampee</title>
   </head>
@@ -25,19 +30,19 @@
           ><img
             src="./assets/img/logos/Stampee_logo_pale_header.svg"
             alt="logo Stampee"
-            class="header-top_img"
+            class="header-top_img" alt="logo Stampee"
           />
         </a>
 
         <div class="barre-recherche">
           <input type="text" class="barre-recherche__champ" />
-          <i class="fa-solid fa-magnifying-glass icon_img1"></i>
+          <i class="fa-solid fa-magnifying-glass icon_img1" alt="icon recherche"></i>
         </div>
 
         <div class="header-top_icons">
-          <i class="fa-solid fa-house icon_img1"></i>
-          <i class="fa-solid fa-user icon_img1"></i>
-          <i class="fa-solid fa-cart-shopping icon_img1"></i>
+          <i class="fa-solid fa-house icon_img1" alt="icon page d'accueil"></i>
+          <i class="fa-solid fa-user icon_img1" alt="icon inscription ou connexion"></i>
+          <i class="fa-solid fa-cart-shopping icon_img1" alt="icon inscription ou connexion"></i>
         </div>
       </div>
 
@@ -56,7 +61,7 @@
       <hero class="index-hero">
         <div class="index-hero-photo">
           <div class="index-hero-photo-g">
-            <img class="hero-photo" src="./assets/img/timbres/timbreCA.png" />
+            <img class="hero-photo" src="./assets/img/timbres/timbreCA.png" alt="image du timbre aux enchères du jour"/>
           </div>
           <div class="index-hero-photo_fleches">
             <i class="fa-solid fa-chevron-left"></i>
@@ -75,7 +80,7 @@
             <div class="vedette-p">
               <img
                 class="vedette-photo"
-                src="./assets/img/timbres/timbre1.jpg"
+                src="./assets/img/timbres/timbre1.jpg" loading="lazy" alt="image du timbre aux enchères du jour"
               />
               <div class="enchere_description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -85,7 +90,7 @@
             <div class="vedette-p">
               <img
                 class="vedette-photo"
-                src="./assets/img/timbres/timbre2.jpg"
+                src="./assets/img/timbres/timbre2.jpg" alt="image du timbre aux enchères du jour"
               />
               <div class="enchere_description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -95,7 +100,7 @@
             <div class="vedette-p">
               <img
                 class="vedette-photo"
-                src="./assets/img/timbres/timbre3.jpg"
+                src="./assets/img/timbres/timbre3.jpg" alt="image du timbre aux enchères du jour"
               />
               <div class="enchere_description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -111,6 +116,7 @@
           <img
             src="./assets/img/icons/collection.svg"
             class="index-services_svg"
+            alt="image d'illustration du service de vente"
           />
           <h3>Achetez dès maintenant</h3>
         </div>
@@ -118,6 +124,7 @@
           <img
             src="./assets/img/icons/evaluation.svg"
             class="index-services_svg"
+            alt="image d'illustration du service de evaluation de timbres"
           />
           <h3>Faites une évaluation</h3>
         </div>
@@ -125,6 +132,7 @@
           <img
             src="./assets/img/icons/worldstamp.svg"
             class="index-services_svg"
+            alt="image d'illustration pour la page commencez votre collection"
           />
           <h3>Commencez une collection</h3>
         </div>
@@ -135,16 +143,16 @@
 
         <div class="index-encheres_gallerie">
           <div class="encheres-photo">
-            <img src="./assets/img/timbres/timbre4.jpg" />
+            <img src="./assets/img/timbres/timbre4.jpg" alt="image du timbre aux enchères active" />
           </div>
           <div class="encheres-photo">
-            <img src="./assets/img/timbres/timbre5.jpg" />
+            <img src="./assets/img/timbres/timbre5.jpg" alt="image du timbre aux enchères active"/>
           </div>
           <div class="encheres-photo">
-            <img src="./assets/img/timbres/timbre6.jpg" />
+            <img src="./assets/img/timbres/timbre6.jpg" alt="image du timbre aux enchères active"/>
           </div>
           <div class="encheres-photo">
-            <img src="./assets/img/timbres/timbre2.jpg" />
+            <img src="./assets/img/timbres/timbre2.jpg" alt="image du timbre aux enchères active"/>
           </div>
         </div>
       </section>

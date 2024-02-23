@@ -157,7 +157,9 @@
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   cursor: pointer;
 
 }
@@ -184,4 +186,47 @@
 .nouvelles p {
   font-size: 1.4rem;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .index-hero{
+    display: block;
+    flex-direction: column;
+  }
+  .encheres-jour{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+}
+
+
+
+@media only screen and (max-width: 950px){
+  .index-encheres_gallerie{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    & .encheres-photo{
+      padding: 1rem;
+    }
+  }
+
+  .index-services{
+    display: block;
+    flex-direction: column;
+  }
+
+  .hero-photo {
+    width: 290px;
+    height: 320px;
+    
+  }
+
 }
