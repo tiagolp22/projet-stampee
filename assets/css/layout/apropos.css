@@ -1,9 +1,4 @@
-body{
-    background-color: var(--fonce)
-}
-
-.main-apropos{
-    
+.main-apropos{  
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -68,4 +63,18 @@ h2 {
         max-width: 450px;
         max-height: 450px;
     }
+}
+
+@media only screen and (max-width: 630px){
+
+    .apropos_img{
+        max-width: 380px;
+        max-height: 400px;
+    }
+
+    .apropos_biography1, .apropos_biography2 {
+        max-width: 100%
+       
+    }
+    
 }
