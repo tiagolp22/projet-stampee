@@ -1,9 +1,4 @@
-body{
-    background-color: var(--fonce)
-}
-
-.main-apropos{
-    
+.main-apropos{  
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -50,4 +45,36 @@ h2 {
     width: 35rem;
     padding: 2rem;
     padding-right: 2rem;
+}
+
+@media only screen and (max-width: 1700px) {
+
+  .apropos-text{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}
+
+@media only screen and (max-width: 900px){
+
+    .apropos_img{
+        max-width: 450px;
+        max-height: 450px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+
+    .apropos_img{
+        max-width: 380px;
+        max-height: 400px;
+    }
+
+    .apropos_biography1, .apropos_biography2 {
+        max-width: 100%
+       
+    }
+    
 }
