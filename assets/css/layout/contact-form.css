@@ -25,6 +25,8 @@ body{
 
 .form-form-contact p{
     margin: 2rem;
+    color: var(--blanc);
+    font-size: var(--police-s)
 }
 
 .form-contact {
@@ -37,6 +39,8 @@ body{
 label {
     font-family: var(--police-principale);
     margin: var(--space-s);
+    color: var(--dore);
+    font-size: var(--police-s)
     
 }
 
