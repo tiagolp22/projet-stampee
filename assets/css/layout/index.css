@@ -7,8 +7,14 @@
   justify-content: center;
   max-width: 100%;
 
-
+  & h1 {
+    text-align: center;
+    padding: 35px;
+    color: var(--dore);
+  }
 }
+
+
 
 .index-hero {
   display: flex;
