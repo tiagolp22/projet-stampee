@@ -37,11 +37,11 @@
 }
 
 
-/* photo produit gros */
+/* photo*/
 .photo-produit-g {
     align-items: center;
     background-color: var(--blanc);
-    border-radius: var(--space-m);
+    border-radius: 8px;
     display: flex;
     height: 100%;
     justify-content: center;
@@ -52,11 +52,9 @@
         width: 80%;
         height: 80%;
         cursor: pointer;
-        max-width: 300px;
-        max-height: 300px;
         justify-content: center;
         max-width: 400px;
-        max-height: 400px;
+        max-height: 430px;
     }
 }
 
