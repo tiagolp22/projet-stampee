@@ -40,3 +40,24 @@
     flex-wrap: wrap;
     color: var(--blanc);
 }
+
+.facebook-icon .instagram-icon .linkedin-icon {
+    fill: aqua;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.facebook-icon:hover {
+    transform: scale(1.1);
+    fill: #2c5bd3;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1);
+    fill: #d1700f;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.1);
+    fill: #143a9a;
+}
