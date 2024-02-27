@@ -30,14 +30,17 @@
     align-items: center;
     gap: 1.1rem;
     flex-wrap: wrap;
+    fill: var(--fonce)
 }
 
 .footer__contact {
-    font-size: 0.75rem;
+    color: var(--fonce);
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    font-weight: 600;
 }
 
 .footer_left-side {

@@ -236,15 +236,17 @@
   padding: 1rem;
 }
 
-@media only screen and (max-width: 1235px){
+@media only screen and (max-width: 1300px){
   .index-encheres_gallerie{
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    & .timbre-index-photo{
+      margin-bottom: 20px;
+    }
   }
 }
+
 
 @media only screen and (max-width: 1100px) {
 
@@ -257,6 +259,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .index-encheres_gallerie{
+    display: grid;
+      grid-template-columns: 1fr 1fr;
   }
 
   
