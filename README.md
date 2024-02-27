@@ -19,7 +19,7 @@
 
 ### René
 
-1. Footer
+1. Footer 
 2. page catalogue
     - CSS puis importe le main
         - Btn reste à l'intérieur de sa div
