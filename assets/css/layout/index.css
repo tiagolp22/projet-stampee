@@ -8,11 +8,19 @@
   max-width: 100%;
 
   & h1, h2 {
-    text-align: center;
-    padding: 35px;
+    text-align: left;
+    padding: 1%;
     color: var(--dore);
   }
+
+  & .titre-page  > * {
+ 
+    text-align: center;
+  
+  }
 }
+
+
 
 .index-hero {
   display: flex;
@@ -110,6 +118,7 @@
 .index-encheres {
   display: flex;
   flex-direction: column;
+  
   gap: 0px 0px;
 }
 
