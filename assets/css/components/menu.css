@@ -1,6 +1,7 @@
 .aside_menu {
     max-width: 20rem;
-    margin: var(--space-g);
+    padding-top: var(--space-g);
+    padding-bottom: var(--space-g);
 }
 
 .aside_menu p{
