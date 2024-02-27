@@ -16,6 +16,7 @@ body{
     background-color: var(--vert-fonce);
     box-shadow: -2px 6px 10px -2px var(--fonce);
     border: 1px dotted var(--dore);
+    border-radius: 1rem;
     padding: 2rem;
 }
 
