@@ -9,7 +9,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: var(--space-mg);
-    padding-right: var(--space-s); 
     padding-top: var(--space-g);
 
 }
@@ -48,8 +47,9 @@ body{
 .flex-container {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    gap: var(--space-xxg);
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h4 {
