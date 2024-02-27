@@ -1,5 +1,9 @@
 # Projet Stampe
 
+## Lien vers le pré-questionnaire et questionnaire
+
+[Questionnaire test utilisateur](https://docs.google.com/document/d/1VIcqwmlVnFiYvbqKMYRPb3n1bxuQQ891OrpEv4ckoAI/edit?usp=sharing)
+
 ## Distribution des tâches
 
 ### Clara
@@ -109,6 +113,7 @@ Dans les variables d'espacement je propose qu'on change pour rem au lieu de px.
 
 5. Enchère
     - Ajouter une pagination
+    - Dans le tiltre, ajouter une petit boite de texte d'explication pour timbre authentifié
 
 
 
