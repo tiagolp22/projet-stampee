@@ -40,6 +40,9 @@ h1 {
     object-position: top;
 }
 
+h:hover {
+    opacity: 80%;
+}
 
 
 
