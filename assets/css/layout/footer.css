@@ -2,7 +2,6 @@
 .footer {
     background-color: var(--dore);
     color: var(--vert-fonce);
-
 }
 
 .footer__content {
@@ -71,4 +70,30 @@
 .linkedin-icon:hover {
     transform: scale(1.1);
     fill: #143a9a;
+}
+
+@media screen and (max-width: 614px) {
+
+    .footer__content {
+        flex-wrap: nowrap;
+    }
+    
+}
+
+@media screen and (max-width: 382px) {
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer_social-media {
+        gap: 0.7rem;
+        flex-wrap: nowrap;
+    }
+
+    .footer__logo {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
 }
