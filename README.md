@@ -1,5 +1,9 @@
 # Projet Stampe
 
+## Lien vers le pré-questionnaire et questionnaire
+
+[Questionnaire test utilisateur](https://docs.google.com/document/d/1VIcqwmlVnFiYvbqKMYRPb3n1bxuQQ891OrpEv4ckoAI/edit?usp=sharing)
+
 ## Distribution des tâches
 
 ### Clara
@@ -81,6 +85,9 @@ Dans les variables d'espacement je propose qu'on change pour rem au lieu de px.
 
 ### À corriger
 
+* René -> Aligner menu avec filtre et footer
+
+
 1. Footer
     - La couleur verte dans le footer est un peu pâle
 
@@ -90,12 +97,32 @@ Dans les variables d'espacement je propose qu'on change pour rem au lieu de px.
     - Droits auteur
         - Couleur
         - Center par rapport à la page svp
+    - Lien vers qui est M. Stampee
 
 2. Header
     - Couleur encadré de la barre de recherche
 
 3. Mission
     - Colorer un peu le blanc du texte et lui ajouter du gras
+    - Agrandir le texte comme dans p. m. Stampee
+    - Ajouter de l'espacement avec l'image (diminuer l'image)
+
+4. Accueil
+    - Approcher les titres de section et justifier à gauche
+    - Media Query ajouter de l'espacement
+
+5. Enchère
+    - Ajouter une pagination
+    - Dans le tiltre, ajouter une petit boite de texte d'explication pour timbre authentifié
+
+
+
+
+
+
+René Footer
+Clara -> Accueil
+
 
 
 ### Test utilisateur
