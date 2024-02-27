@@ -17,12 +17,13 @@
 }
 
 .footer_droits-auteur {
-    color: var(--blanc);
+    color: var(--fonce);
     font-size: var(--space-s);
     display: flex;
     flex-direction: column;
     justify-content:end;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 .footer_social-media {
