@@ -50,14 +50,17 @@
 .facebook-icon:hover {
     transform: scale(1.1);
     fill: #2c5bd3;
+    cursor: pointer;
 }
 
 .instagram-icon:hover {
     transform: scale(1.1);
     fill: #d1700f;
+    cursor: pointer;
 }
 
 .linkedin-icon:hover {
     transform: scale(1.1);
     fill: #143a9a;
+    cursor: pointer;
 }
