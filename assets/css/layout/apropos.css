@@ -26,6 +26,7 @@
     }
 }
 
+
 h2 {
     padding: 2rem;
     color: var(--dore);
@@ -33,6 +34,7 @@ h2 {
 
 .apropos-text p {
     font-size: 1.1rem;
+    margin-bottom: 1.5rem;
 }
 
 .apropos_img{
@@ -46,6 +48,8 @@ h2 {
     padding: 2rem;
     padding-right: 2rem;
 }
+
+
 
 @media only screen and (max-width: 1700px) {
 

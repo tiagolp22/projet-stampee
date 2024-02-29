@@ -1,5 +1,9 @@
 # Projet Stampe
 
+## Lien vers le pré-questionnaire et questionnaire
+
+[Questionnaire test utilisateur](https://docs.google.com/document/d/1VIcqwmlVnFiYvbqKMYRPb3n1bxuQQ891OrpEv4ckoAI/edit?usp=sharing)
+
 ## Distribution des tâches
 
 ### Clara
@@ -15,7 +19,7 @@
 
 ### René
 
-1. Footer
+1. Footer 
 2. page catalogue
     - CSS puis importe le main
         - Btn reste à l'intérieur de sa div
@@ -64,4 +68,92 @@ Dans les variables d'espacement je propose qu'on change pour rem au lieu de px.
     - Animer les SVG
 
     - Question pour Maxime
+
+
+### Test
+
+- Navigations
+- Recherche d'informations
+- Fonctionnalité plus précise
+- Expérience et ressentis
+- Accessibilité (Mobile et tablette)
+- 
+
+- Est-ce que la personne réussi à trouver l'informations
+    - Peut-elle miser sur un timbre
+
+
+### À corriger
+
+* René -> Aligner menu avec filtre et footer
+
+
+1. Footer
+    - La couleur verte dans le footer est un peu pâle
+
+    - Ajouter le lien 'mission'
+    - Changer la première lettre
+    - Couleur du logo
+    - Droits auteur
+        - Couleur
+        - Center par rapport à la page svp
+    - Lien vers qui est M. Stampee
+
+2. Header
+    - Couleur encadré de la barre de recherche
+
+3. Mission
+    - Colorer un peu le blanc du texte et lui ajouter du gras
+    - Agrandir le texte comme dans p. m. Stampee
+    - Ajouter de l'espacement avec l'image (diminuer l'image)
+
+4. Accueil
+    - Approcher les titres de section et justifier à gauche
+    - Media Query ajouter de l'espacement
+
+5. Enchère
+    - Ajouter une pagination
+    - Dans le tiltre, ajouter une petit boite de texte d'explication pour timbre authentifié
+
+
+
+
+
+
+René Footer
+Clara -> Accueil
+
+
+
+### Test utilisateur
+
+- Demander à la testeuse de commenter à voix haute
+-> vous avez dit celà, qu'est-ce que vous vouliez dire au juste?
+
+- Définir les questions du pré-questionnaire
+- Définir les 4 tâches ish
+    - Tester la navigation
+        Si vous aviez à aller sur la page d'informations sur M. Stampee, comment vous y prendreriez-vous ?
+    - 
+
+- Ouverture
+    - Ressenti, appréciation visuelle de l'expérience
+    - 1 à 10 comment avez-vous trouvé
+        1. la navigation
+        2. Le choix des couleurs
+        3. Hiérarchisation des informations
+        4. 
+
+    - Laisser une boite de texte pour les commentaires généraux
+    - Remercier l'utilisateur
+
+    #### Questions pour Maxim
+
+    - Questionnaire papier ? numérique ? C'est nous qui le remplissons ?
+
+
+
+ 
+
+
     

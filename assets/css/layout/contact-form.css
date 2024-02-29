@@ -13,10 +13,10 @@ body{
 
 .form-form-contact{
     max-width: 40rem;
-    background-color: var(--vert-fonce);
-    box-shadow: -2px 6px 10px -2px var(--fonce);
-    border: 1px dotted var(--dore);
-    padding: 2rem;
+    background-color: #133636;
+    box-shadow: 0px 1px 4px 1px var(--dore);
+    padding: 1rem;
+    border-radius: 8px;
 }
 
 .form-form-contact h2{
