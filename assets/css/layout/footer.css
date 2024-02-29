@@ -54,22 +54,25 @@
 .facebook-icon .instagram-icon .linkedin-icon {
     fill: aqua;
     transition: transform 0.3s ease-in-out;
-    transform: scale(1);
+    transform: scale(1);    
 }
 
 .facebook-icon:hover {
     transform: scale(1.1);
     fill: #2c5bd3;
+    cursor: pointer;
 }
 
 .instagram-icon:hover {
     transform: scale(1.1);
     fill: #d1700f;
+    cursor: pointer;
 }
 
 .linkedin-icon:hover {
     transform: scale(1.1);
     fill: #143a9a;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 614px) {
@@ -89,6 +92,10 @@
     .footer_social-media {
         gap: 0.7rem;
         flex-wrap: nowrap;
+
+        & svg{
+            cursor: pointer;
+        }
     }
 
     .footer__logo {
