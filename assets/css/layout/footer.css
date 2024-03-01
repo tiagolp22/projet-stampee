@@ -1,6 +1,7 @@
 .footer {
+    --color-footer: color-mix(in oklab, var(--fonce) 65%, var(--vert-fonce) 35%);
     background-color: var(--dore);
-    color: var(--vert-fonce);
+    color: var(--color-footer);
 }
 
 .footer__content {
@@ -15,7 +16,6 @@
 }
 
 .footer_droits-auteur {
-    color: var(--fonce);
     font-size: var(--space-s);
     display: flex;
     flex-direction: column;
@@ -29,11 +29,10 @@
     align-items: center;
     gap: 1.1rem;
     flex-wrap: wrap;
-    fill: var(--fonce)
+    fill: var(--color-footer)
 }
 
 .footer__contact {
-    color: var(--fonce);
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -47,13 +46,12 @@
     justify-content: space-around;
     gap: 1.5rem;
     flex-wrap: wrap;
-    color: var(--blanc);
 }
 
 .facebook-icon .instagram-icon .linkedin-icon {
     fill: aqua;
     transition: transform 0.3s ease-in-out;
-    transform: scale(1);
+    transform: scale(1);    
 }
 
 .facebook-icon:hover {
@@ -90,6 +88,10 @@
     .footer_social-media {
         gap: 0.7rem;
         flex-wrap: nowrap;
+
+        & svg{
+            cursor: pointer;
+        }
     }
 
     .footer__logo {

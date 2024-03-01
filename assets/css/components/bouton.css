@@ -1,7 +1,7 @@
 .btn {
     width: fit-content;
-    padding: var(--space-xs);
-    margin-top: var(--space-xs);
+    padding: var(--space-xxs);
+    margin-top: var(--space-xxs);
     background-color: var(--dore);
     color: var(--fonce);
     border-radius: 8px;
@@ -10,7 +10,8 @@
     font-family: var();
 
     &:hover {
-        background-color: var(--blanc);
+        background-color: #133636;
+        color: #d3b427;
     }
 
     &:focus {

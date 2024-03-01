@@ -11,9 +11,10 @@
     max-width: 90vw;
     justify-content: center;
     align-items: center;
-    background-color: var(----vert-fonce);
-    box-shadow: 0px 1px 2px 0px var(--dore);
-    border: 1px dotted var(--dore);
+    background-color: #133636;
+    box-shadow: 0px 1px 4px 1px var(--dore);
+    padding: 1rem;
+    border-radius: 8px;
     padding: 2rem;
     margin: 0 2rem 0 2rem;
 
