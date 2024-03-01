@@ -9,7 +9,6 @@
     cursor: pointer;
     font-family: var();
 
-
     &:hover {
         background-color: #133636;
         color: #d3b427;
