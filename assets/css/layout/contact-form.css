@@ -35,7 +35,6 @@ body{
     padding: 2rem;
 }
 
-
 label {
     font-family: var(--police-principale);
     margin: var(--space-s);
@@ -64,9 +63,7 @@ label {
     font-family: var(--police-principale);
     width: 20rem;
     margin: var(--space-s);   
-    border-radius: 1rem;
-    
-    
+    border-radius: 1rem;  
 }
 
 
