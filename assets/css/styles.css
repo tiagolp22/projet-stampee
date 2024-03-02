@@ -25,7 +25,6 @@
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 @import url("./layout/general.css");
-@import url("./layout/grilleCarte.css");
 @import url("./layout/footer.css");
 
 /* Exceptions pour certaines pages */
@@ -45,7 +44,6 @@
 
 /* Page index */
 @import url("./layout/index.css");
-@import url("./layout/hero.css");
 
 /*page A propos*/
 @import url("./layout/apropos.css");
