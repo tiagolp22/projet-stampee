@@ -236,7 +236,7 @@
 @media only screen and (max-width: 1300px) {
   .index-encheres_gallerie {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-colugitmns: 1fr 1fr 1fr;
 
     & .timbre-index-photo {
       margin-bottom: 20px;
