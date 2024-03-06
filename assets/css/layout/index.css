@@ -7,13 +7,6 @@
   justify-content: center;
   max-width: 100%;
 
-  & h1,
-  h2 {
-    text-align: left;
-    padding: 1%;
-    color: var(--dore);
-  }
-
   & .titre-page>* {
 
     text-align: center;
@@ -26,9 +19,9 @@
 
 .index-hero {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  /* align-items: center; */
   justify-content: center;
-  gap: 8rem;
   margin: 2rem;
   background-color: var(--vert-fonce);
   border-radius: 1rem;
@@ -39,33 +32,49 @@
   }
 
 }
+.index-hero__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
 
 .index-hero h1 {
   color: var(--dore);
-  padding: 1rem;
+  margin-bottom: 2rem;
+ 
 }
 
+.index-hero__carroussel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 .index-hero-photo {
   display: flex;
   align-items: center;
   justify-content: space-around;
   max-width: 100vw;
-  padding: 2rem;
-  margin: 2rem;
 }
 .index-hero-photo-g{
   margin: 2rem;
 }
 
 .hero-photo {
-  max-width: 28rem;
+  max-width: 25rem;
   border-radius: 1rem;
 }
 
-
-
 .enchere_description {
   padding: 1rem;
+}
+
+.encheres-jour_vedettes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .vedette-photo {
@@ -78,6 +87,9 @@
   transform: scale(1.1);
 }
 
+.enchere_description_titre {
+  font-weight: 800;
+}
 .vedette-p {
   display: flex;
   justify-content: center;
@@ -91,6 +103,11 @@
   border-radius: 1rem;
 }
 
+.enchere_description_btns {
+  display: flex;
+  margin-top: 2rem;
+  gap: 3rem;
+}
 
 /* Section Encheres actives*/
 

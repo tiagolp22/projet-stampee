@@ -1,13 +1,12 @@
 .btn {
     width: fit-content;
-    padding: var(--space-xxs);
-    margin-top: var(--space-xxs);
+    padding: 1rem;
     background-color: var(--dore);
     color: var(--fonce);
-    border-radius: 8px;
+    border-radius: 1rem;
     box-shadow: 3px 3px 3px var(--fonce);
     cursor: pointer;
-    font-family: var();
+    
 
     &:hover {
         background-color: #133636;

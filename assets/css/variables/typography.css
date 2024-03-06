@@ -31,11 +31,12 @@ p {
 
 h1, h2, h3, h4 {
     font-family: var(--police-secondaire);
-    line-height: 2rem;
+    
 }
 
 h1 {
     font-size: var(--police-g);
+    line-height: 3.4rem;
 }
 
 h2 {
@@ -51,6 +52,6 @@ h4{
 }
 
 .btn {
-    font-size: var(--police-xxs);
-    font-family: var(--police-secondaire);
+    font-size: var(--police-xs);
+    font-family: var(--police-principale);
 }
