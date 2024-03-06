@@ -19,13 +19,14 @@
 
 .index-hero {
   display: flex;
-  flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin: 1.5rem;
+  margin-bottom: 8rem;
   background-color: var(--vert-fonce);
   border-radius: 1rem;
   padding: 1rem;
+  gap: 8rem;
 
   & a {
     color: var(--dore);
@@ -35,8 +36,8 @@
 .index-hero__content{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 4rem;
+  justify-content: space-around
+
 }
 
 .index-hero h1 {
@@ -66,10 +67,9 @@
   border-radius: 1rem;
 }
 
-.enchere_description {
-  padding: 1rem;
+.encheres-jour {
+  margin-top: -7rem;
 }
-
 .encheres-jour_vedettes{
   display: flex;
   align-items: center;
@@ -119,19 +119,26 @@
 }
 
 .index-encheres h2 {
-  color: var(--dore);
+  color: var(--fonce);
   padding: 2rem;
 }
 
 .index-encheres_gallerie {
-  display: flex;
-  justify-content: space-around;
-  padding: 6rem 2rem 6rem 2rem;
+ 
   background-color: var(--dore);
   border-radius: 1rem;
   margin: 2rem;
 
 }
+
+.index-encheres_gallerie__photos {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--dore);
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
 
 .encheres-photo img {
   max-width: 10rem;
@@ -146,9 +153,13 @@
   transform: scale(1.3);
 }
 
+
+/* Section services  */
+
 .index-services {
   display: flex;
   justify-content: center;
+  margin-bottom: 8rem;
 
 }
 
@@ -188,6 +199,7 @@
   justify-content: center;
   min-width: 200px;
   color: var(--fonce);
+  padding: 1rem;
 
   & h3,
   p {
@@ -217,6 +229,7 @@
   transform: scale(1.4);
 }
 
+/*Section actualités*/
 .nouvelles {
   display: flex;
   flex-direction: column;
