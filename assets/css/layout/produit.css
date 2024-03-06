@@ -78,6 +78,8 @@
 .fa-chevron-right {
     transition: transform 0.3s ease-in-out;
     transform: scale(1);
+    color: var(--dore);
+    font-size: 4rem;
 }
 
 /* icon fleche pendant le survol */

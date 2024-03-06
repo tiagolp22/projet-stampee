@@ -10,12 +10,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 .header-top_img {
-    max-width: 9rem;
+    max-width: 14rem;
 }
 
 .header-top_icons {

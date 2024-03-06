@@ -40,47 +40,29 @@
 
 }
 
-.hero-photo {
-  max-width: 30rem;
-  border-radius: 1rem;
-}
-
-.index-hero h2 {
+.index-hero h1 {
   color: var(--dore);
   padding: 1rem;
 }
 
 .index-hero-photo {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 100vw;
-}
-
-.index-hero-photo_fleches {
-  display: none;
-  justify-content: center;
-  position: absolute;
-  cursor: pointer;
-  gap: 12rem;
   padding: 2rem;
-  z-index: 999;
-
-  & i {
-    color: var(--dore);
-    font-size: 6rem;
-  }
+  margin: 2rem;
+}
+.index-hero-photo-g{
+  margin: 2rem;
 }
 
-.index-hero-photo:hover .hero-photo {
-  position: relative;
-  filter: brightness(0.5);
+.hero-photo {
+  max-width: 28rem;
+  border-radius: 1rem;
 }
 
-.index-hero-photo:hover .index-hero-photo_fleches {
-  display: flex;
-}
+
 
 .enchere_description {
   padding: 1rem;
@@ -236,7 +218,7 @@
 @media only screen and (max-width: 1300px) {
   .index-encheres_gallerie {
     display: grid;
-    grid-template-colugitmns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     & .timbre-index-photo {
       margin-bottom: 20px;
