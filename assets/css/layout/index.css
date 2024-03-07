@@ -68,13 +68,17 @@
 }
 
 .encheres-jour {
-  margin-top: -7rem;
+  margin-top: -7rem;  
 }
 .encheres-jour_vedettes{
   display: flex;
   align-items: center;
   justify-content: center;
 
+}
+
+.enchere_description_detail {
+  font-weight: 800;
 }
 
 .vedette-photo {
@@ -114,7 +118,7 @@
 .index-encheres {
   display: flex;
   flex-direction: column;
-
+  margin-bottom: 8rem;
   gap: 0px 0px;
 }
 
@@ -159,7 +163,7 @@
 .index-services {
   display: flex;
   justify-content: center;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 
 }
 
