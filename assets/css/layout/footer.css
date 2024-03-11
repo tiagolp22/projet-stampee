@@ -1,4 +1,3 @@
-
 .footer {
     background-color: #bc9e17;
     color: var(--vert-fonce);
@@ -16,11 +15,10 @@
 }
 
 .footer_droits-auteur {
-    color: var(--fonce);
     font-size: var(--space-s);
     display: flex;
     flex-direction: column;
-    justify-content:end;
+    justify-content: end;
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -30,11 +28,10 @@
     align-items: center;
     gap: 1.1rem;
     flex-wrap: wrap;
-    fill: var(--fonce)
+    fill: var(--color-footer)
 }
 
 .footer__contact {
-    color: var(--fonce);
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -48,13 +45,12 @@
     justify-content: space-around;
     gap: 1.5rem;
     flex-wrap: wrap;
-    color: var(--blanc);
 }
 
 .facebook-icon .instagram-icon .linkedin-icon {
     fill: aqua;
     transition: transform 0.3s ease-in-out;
-    transform: scale(1);
+    transform: scale(1);    
 }
 
 .facebook-icon:hover {
@@ -80,7 +76,6 @@
     .footer__content {
         flex-wrap: nowrap;
     }
-    
 }
 
 @media screen and (max-width: 382px) {
@@ -92,11 +87,14 @@
     .footer_social-media {
         gap: 0.7rem;
         flex-wrap: nowrap;
+
+        & svg{
+            cursor: pointer;
+        }
     }
 
     .footer__logo {
         width: 60vw;
         margin: 0 auto;
     }
-
 }

@@ -3,7 +3,7 @@
 }
 
 .footer_social-media {
-    fill: var(--vert-fonce);
+    fill: var(--color-footer);
 }
 
 .footer__logo {
@@ -12,3 +12,10 @@
     flex-direction: column;
     justify-content:center;
 }
+
+
+.fa-chevron-left .fa-chevron-right {
+    color: var(--dore);
+    cursor: pointer;
+  }
+  
