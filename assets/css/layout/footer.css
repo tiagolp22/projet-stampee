@@ -1,7 +1,6 @@
 .footer {
-    --color-footer: color-mix(in oklab, var(--fonce) 65%, var(--vert-fonce) 35%);
-    background-color: var(--dore);
-    color: var(--color-footer);
+    background-color: #bc9e17;
+    color: var(--vert-fonce);
 }
 
 .footer__content {
