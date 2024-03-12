@@ -272,7 +272,7 @@
         - Ajoute aussi le temps si enchères
     2. L'espacement en général (Rapprocher de son contenu, éloigner de la section précédente)
         - Ajouter du padding aux boutons
-    3. Grosseur du texte page Mission -> Accessibilité
+    3. OK -- Grosseur du texte page Mission -> Accessibilité
     4. À propos, on y ajoute la mission, valeur etc ?
     5. S'assurer que le html et le css soit parfait -> backend à partir du 18 mars
     6. Grossir les tuile de la page enchère
