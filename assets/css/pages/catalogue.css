@@ -54,6 +54,17 @@ h4 {
     text-align: center;
 }
 
+.flex-container {
+    position:relative;
+}
+.pagination {
+    position:absolute;
+    font-size: var(--police-s);
+    color: var(--dore);
+    bottom: var(--space-g);
+    right: 0;
+}
+
 /* * {
     border: 2px solid blue !important; 
 } */
