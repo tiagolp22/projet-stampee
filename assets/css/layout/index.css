@@ -77,6 +77,12 @@
 
 }
 
+.enchere_description {
+ & p{
+  font-size: 1.2rem;
+ } 
+}
+
 .enchere_description_detail {
   font-weight: 800;
 }
@@ -100,6 +106,7 @@
   align-items: center;
   gap: 2rem;
   padding: 1rem;
+  
 }
 
 .vedette-p img {
