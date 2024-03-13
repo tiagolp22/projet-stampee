@@ -6,14 +6,14 @@ body {
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: var(--space-mg);
+    gap: 5vw;
     padding-top: var(--space-g);
 
 }
 
 .main-grid__tuile {
     background-color: var(--blanc);
-    width: fit-content;
+
     padding: var(--space-s) var(--space-mg) var(--space-mg) var(--space-mg);
     border-radius: 15px;
 
@@ -48,10 +48,22 @@ body {
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+    padding-bottom: var(--space-xg);
 }
 
 h4 {
     text-align: center;
+}
+
+.flex-container {
+    position:relative;
+}
+.pagination {
+    position:absolute;
+    font-size: var(--police-s);
+    color: var(--dore);
+    bottom: var(--space-g);
+    right: 0;
 }
 
 /* * {

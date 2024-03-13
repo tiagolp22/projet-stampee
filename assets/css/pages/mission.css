@@ -18,6 +18,7 @@ main p {
     color: var(--blanc);
     width: 75%;
     margin: 0 auto;
+    font-size: var(--police-s);
 }
 
 h1 {
@@ -27,7 +28,8 @@ h1 {
 }
 
 .main-mission__vision--img {
-    aspect-ratio: 4/1;
+    aspect-ratio: 6/1;
+
 
 
 }
