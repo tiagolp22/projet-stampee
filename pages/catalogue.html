@@ -117,30 +117,42 @@
           </div>
 
           <div>
-            <label for="condition">Condition</label>
+            <p>Condition</p>
             <div class="aside_menu_input_condition">
               <div class="aside_menu_input_condition_option">
-                <input id="condition" type="checkbox" name="nouveau" value="Nouveau" />
-                <label> Nouveau</label>
+                <input
+                  id="nouveau"
+                  type="checkbox"
+                  name="nouveau"
+                  value="Nouveau"
+                />
+                <label for="nouveau">Nouveau</label>
               </div>
               <div class="aside_menu_input_condition_option">
-                <input type="checkbox" name="bon_etat" value="Bon état" />
-                <label> Bon état</label>
+                <input id="bon_etat" type="checkbox" name="bon_etat" value="bon_etat" />
+                <label for="bon_etat">Bon état</label>
               </div>
               <div class="aside_menu_input_condition_option">
-                <input type="checkbox" name="endomage" value="Endomagé" />
-                <label> Endomagé</label>
+                <input
+                  id="endomage"
+                  type="checkbox"
+                  name="endomage"
+                  value="Endomagé"
+                />
+                <label for="endomage">Endomagé</label>
               </div>
             </div>
           </div>
 
           <div class="aside_menu_input_autentication">
             <p><abbr title="Copie officielle">Authentifié&nbsp;?</abbr></p>
+
             <div class="aside_menu_input_autentication_options">
-              <input type="radio" name="Oui" value="Oui" />
-                <label>Oui</label><br />
-                <input type="radio" name="non" value="Non" />
-              <label>Non</label>
+                <label for="authentifie">Oui</label>
+              <input id="authentifie" type="radio" name="Oui" value="Oui" />
+
+              <label for="authentifie">Non</label>
+                <input id="authentifie" type="radio" name="non" value="Non" />
             </div>
           </div>
 
