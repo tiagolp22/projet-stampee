@@ -46,17 +46,23 @@
 
         <div class="header-top_icons">
           <a href="../index.html">
-            <i class="fa-solid fa-house icon_img1" role="img" aria-label="icon page d'accueil"></i
+            <i
+              class="fa-solid fa-house icon_img1"
+              role="img"
+              aria-label="icon page d'accueil"
+            ></i
           ></a>
           <a href="./login.html">
             <i
               class="fa-solid fa-user icon_img1"
-              role="img" aria-label="icon inscription ou connexion"
+              role="img"
+              aria-label="icon inscription ou connexion"
             ></i
           ></a>
           <i
             class="fa-solid fa-cart-shopping icon_img1"
-            role="img" aria-label="icon inscription ou connexion"
+            role="img"
+            aria-label="icon inscription ou connexion"
           ></i>
         </div>
       </div>
@@ -75,8 +81,9 @@
     <section class="flex-container">
       <aside class="aside_menu">
         <form class="aside_menu__form">
-          <p>Prix: <span>(0 a 10.000)</span></p>
+          <label for="prix">Prix: <span>(0 a 10.000)</span></label>
           <input
+            id="prix"
             type="range"
             name="prix"
             min="1"
@@ -85,13 +92,18 @@
           />
 
           <div class="aside_menu_input_annee">
-            <p>Année</p>
-            <input type="number" name="annee" class="aside_menu__input_range" />
+            <label for="annee">Année</label>
+            <input
+              id="annee"
+              type="number"
+              name="annee"
+              class="aside_menu__input_range"
+            />
           </div>
 
           <div class="aside_menu_input_pays">
-            <p>Pays</p>
-            <select name="pays" class="aside_menu_input_pays_select">
+            <label for="pays">Pays</label>
+            <select id="pays" name="pays" class="aside_menu_input_pays_select">
               <option value=""></option>
               <option value="Afrique du Sud">Afrique du Sud</option>
               <option value="Brésil">Brésil</option>
@@ -105,10 +117,10 @@
           </div>
 
           <div>
-            <p>Condition</p>
+            <label for="condition">Condition</label>
             <div class="aside_menu_input_condition">
               <div class="aside_menu_input_condition_option">
-                <input type="checkbox" name="nouveau" value="Nouveau" />
+                <input id="condition" type="checkbox" name="nouveau" value="Nouveau" />
                 <label> Nouveau</label>
               </div>
               <div class="aside_menu_input_condition_option">
@@ -151,6 +163,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_china-lot-black_0003-–-kopija.webp"
               alt="timbre chine"
             />
@@ -163,6 +177,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_canada-stamp-214-prince-of-wales-5-1935.webp"
               alt="timbre canada"
             />
@@ -174,7 +190,12 @@
 
         <div class="main-grid__tuile">
           <div>
-            <img src="../assets/img/timbres/timbre2.webp" alt="Timbre Senna" />
+            <img
+              width="200"
+              height="200"
+              src="../assets/img/timbres/timbre2.webp"
+              alt="Timbre Senna"
+            />
             <h4>Stampee Senna</h4>
           </div>
           <a href="./produit.html" class="btn">Miser</a>
@@ -184,6 +205,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_canada-stamp-117a-king-george-v-10-1922.webp"
               alt="timbre canada"
             />
@@ -196,6 +219,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_Argentina-1924-50c-stamp-plate-error.webp"
               alt="timbre argentine"
             />
@@ -208,6 +233,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_Brazil-CA-DP3_2-253x300.webp"
               alt="Brazil timbre"
             />
@@ -219,7 +246,12 @@
 
         <div class="main-grid__tuile">
           <div>
-            <img src="../assets/img/timbres/timbre3.webp" alt="Timbre Brasil" />
+            <img
+              width="200"
+              height="200"
+              src="../assets/img/timbres/timbre3.webp"
+              alt="Timbre Brasil"
+            />
             <h4>Stampee Senna</h4>
           </div>
           <a href="./produit.html" class="btn">Miser</a>
@@ -294,7 +326,8 @@
             y="0px"
             viewBox="0 0 810 810"
             style="enable-background: new 0 0 810 810"
-            xml:space="preserve" class="footer__logo"
+            xml:space="preserve"
+            class="footer__logo"
           >
             <style type="text/css">
               .st0 {
