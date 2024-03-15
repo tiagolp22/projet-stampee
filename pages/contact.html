@@ -19,6 +19,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="icon"
+      href="./assets/img/logos/Stampee_logo_pale_header.svg"
+      type="image/x-icon"
+      alt="logo Stampee"
+    />
     <!-- Pour production -->
     <!-- <link rel="stylesheet" href="build/css/stylesfinaux.css"> -->
     <link rel="stylesheet" href="../assets/css/styles.css" />
@@ -27,47 +33,53 @@
   <body class="body-index">
     <header class="header-top">
       <div class="header-top__superieur">
-        <a href="../index.html"
-          ><img
-            src="../assets/img/logos/Stampee_logo_pale_header.svg"
-            alt="logo Stampee"
-            class="header-top_img"
-            alt="logo Stampee"
-          />
-        </a>
+        <div class="header-top__logo">
+          <a href="../index.html"
+            ><img
+              src="../assets/img/logos/Stampee_logo_titre.png"
+              alt="logo Stampee"
+              class="header-top_img"
+              alt="logo Stampee"
+            />
+          </a>
+        </div>
 
         <div class="barre-recherche">
-          <input type="text" class="barre-recherche__champ" />
+          <input
+            type="text"
+            class="barre-recherche__champ"
+            placeholder="Recherchez le timbre souhaité"
+          />
           <i
             class="fa-solid fa-magnifying-glass icon_img1"
             alt="icon recherche"
           ></i>
         </div>
+        <i class="fa-solid fa-bars" alt="icon menu portable"></i>
 
         <div class="header-top_icons">
           <a href="../index.html">
-            <i class="fa-solid fa-house icon_img1" alt="icon page d'accueil"></i
+            <i class="fa-solid fa-house icon_img1" role="img" aria-label="icon page d'accueil"></i
           ></a>
           <a href="./login.html">
             <i
               class="fa-solid fa-user icon_img1"
-              alt="icon inscription ou connexion"
+              role="img" aria-label="icon inscription ou connexion"
             ></i
           ></a>
           <i
             class="fa-solid fa-cart-shopping icon_img1"
-            alt="icon inscription ou connexion"
+            role="img" aria-label="icon inscription ou connexion"
           ></i>
         </div>
       </div>
 
       <div class="header-nav">
         <ul>
-          <a href="./catalogue.html"><li>Enchères</li></a>
-          <a href="./login.html"><li>Connexion</li></a>
-          <a href="./apropos.html"><li>À propos</li></a>
-          <a href="./mission.html"><li>Mission</li></a>
-          <a href="./contact.html"><li>Contact</li></a>
+          <li><a href="../index.html">Home</a></li>
+          <li> <a href="./catalogue.html">Catalogue</a></li>
+          <li><a href="./apropos.html">À propos</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </div>
     </header>
