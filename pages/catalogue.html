@@ -37,7 +37,7 @@
         </a>
 
         <div class="barre-recherche">
-          <input type="text" class="barre-recherche__champ" />
+          <input id="name" type="text" class="barre-recherche__champ" />
           <i
             class="fa-solid fa-magnifying-glass icon_img1"
             alt="icon recherche"
@@ -75,7 +75,7 @@
       <aside class="aside_menu">
         <form class="aside_menu__form">
           <p>Prix: <span>(0 a 10.000)</span></p>
-          <input
+          <input id="prix"
             type="range"
             name="prix"
             min="1"
@@ -85,7 +85,7 @@
 
           <div class="aside_menu_input_annee">
             <p>Année</p>
-            <input type="number" name="annee" class="aside_menu__input_range" />
+            <input id="annee" type="number" name="annee" class="aside_menu__input_range" />
           </div>
 
           <div class="aside_menu_input_pays">
@@ -103,33 +103,35 @@
             </select>
           </div>
 
-          <div>
-            <p>Condition</p>
+          <fieldset>
+            <legend>Condition</legend>
             <div class="aside_menu_input_condition">
-              <div class="aside_menu_input_condition_option">
-                <input type="checkbox" name="nouveau" value="Nouveau" />
-                <label> Nouveau</label>
-              </div>
-              <div class="aside_menu_input_condition_option">
-                <input type="checkbox" name="bon_etat" value="Bon état" />
-                <label> Bon état</label>
-              </div>
-              <div class="aside_menu_input_condition_option">
-                <input type="checkbox" name="endomage" value="Endomagé" />
-                <label> Endomagé</label>
-              </div>
+                <div class="aside_menu_input_condition_option">
+                    <input id="nouveau" type="checkbox" name="condition_nouveau" value="Nouveau" />
+                    <label for="nouveau">Nouveau</label>
+                </div>
+                <div class="aside_menu_input_condition_option">
+                    <input id="bon_etat" type="checkbox" name="condition_bon_etat" value="Bon état" />
+                    <label for="bon_etat">Bon état</label>
+                </div>
+                <div class="aside_menu_input_condition_option">
+                    <input id="endomage" type="checkbox" name="condition_endommage" value="Endommagé" />
+                    <label for="endomage">Endommagé</label>
+                </div>
             </div>
-          </div>
-
-          <div class="aside_menu_input_autentication">
-            <p><abbr title="Copie officielle">Authentifié&nbsp;?</abbr></p>
-            <div class="aside_menu_input_autentication_options">
-              <input type="radio" name="Oui" value="Oui" />
-                <label>Oui</label><br />
-                <input type="radio" name="non" value="Non" />
-              <label>Non</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend><abbr title="Copie officielle">Authentifié&nbsp;?</abbr></legend>
+            <div class="aside_menu_input_authentication">
+                <div class="aside_menu_input_authentication_options">
+                    <input id="Oui" type="radio" name="authentication" value="Oui" />
+                    <label for="Oui">Oui</label><br />
+                    <input id="non" type="radio" name="authentication" value="Non" />
+                    <label for="non">Non</label>
+                </div>
             </div>
-          </div>
+        </fieldset>
 
           <button type="submit" class="btn">Soumettre</button>
         </form>
@@ -138,8 +140,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
-              src="../assets/img/timbres/catalogue_brasilFootbal.jpeg"
-              alt="Brasil Footbal"
+              src="../assets/img/timbres/timbre6.webp"
+              alt="Canada timbre"
             />
             <h4>Stampee Senna</h4>
           </div>
@@ -162,7 +164,7 @@
         <div class="main-grid__tuile">
           <div>
             <img
-              src="../assets/img/timbres/catalogue_canada-stamp-214-prince-of-wales-5-1935.webp"
+              src="../assets/img/timbres/timbre5.webp"
               alt="timbre canada"
             />
             <h4>Stampee Senna</h4>

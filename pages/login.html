@@ -88,24 +88,23 @@
       <div class="form-form-login">
         <h2>Bienvenu.e!</h2>
         <form class="form-login">
-          <!-- <label>Votre nom</label>
-          <input type="text" name="nom" class="form-login_input" value="*****" /> -->
-
-          <label>Votre e-mail</label>
-          <input type="email" name="email" class="form-login_input" value="exemple@exemple.com" />
-
-          <label>Mot de passe </label>
-          <input type="text" name="sujet" class="form-login_input" value="*****" />
-
+          <label for="email">Votre e-mail:</label>
+          <input type="email" id="email" name="email" class="form-login_input" value="exemple@exemple.com" />
+      
+          <label for="password">Mot de passe:</label>
+          <input type="password" id="password" name="password" class="form-login_input" placeholder="Enter your password" />
+      
           <button type="button" class="btn">Se connecter</button>
+          
           <div class="inscription-social-midia">
-            <p>complétez votre inscription avec :</p>
-            <div class="login-icons">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-google-plus-g"></i>
-            </div>
+              <p>Complétez votre inscription avec :</p>
+              <div class="login-icons">
+                  <i class="fa-brands fa-facebook" aria-label="Connect with Facebook"></i>
+                  <i class="fa-brands fa-google-plus-g" aria-label="Connect with Google"></i>
+              </div>
           </div>
-        </form>
+      </form>
+      
       </div>
     </main>
 
