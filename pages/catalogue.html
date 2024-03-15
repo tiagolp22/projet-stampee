@@ -46,17 +46,23 @@
 
         <div class="header-top_icons">
           <a href="../index.html">
-            <i class="fa-solid fa-house icon_img1" role="img" aria-label="icon page d'accueil"></i
+            <i
+              class="fa-solid fa-house icon_img1"
+              role="img"
+              aria-label="icon page d'accueil"
+            ></i
           ></a>
           <a href="./login.html">
             <i
               class="fa-solid fa-user icon_img1"
-              role="img" aria-label="icon inscription ou connexion"
+              role="img"
+              aria-label="icon inscription ou connexion"
             ></i
           ></a>
           <i
             class="fa-solid fa-cart-shopping icon_img1"
-            role="img" aria-label="icon inscription ou connexion"
+            role="img"
+            aria-label="icon inscription ou connexion"
           ></i>
         </div>
       </div>
@@ -74,8 +80,9 @@
     <section class="flex-container">
       <aside class="aside_menu">
         <form class="aside_menu__form">
-          <p>Prix: <span>(0 a 10.000)</span></p>
-          <input id="prix"
+          <label for="prix">Prix: <span>(0 a 10.000)</span></label>
+          <input
+            id="prix"
             type="range"
             name="prix"
             min="1"
@@ -84,13 +91,18 @@
           />
 
           <div class="aside_menu_input_annee">
-            <p>Année</p>
-            <input id="annee" type="number" name="annee" class="aside_menu__input_range" />
+            <label for="annee">Année</label>
+            <input
+              id="annee"
+              type="number"
+              name="annee"
+              class="aside_menu__input_range"
+            />
           </div>
 
           <div class="aside_menu_input_pays">
-            <p>Pays</p>
-            <select name="pays" class="aside_menu_input_pays_select">
+            <label for="pays">Pays</label>
+            <select id="pays" name="pays" class="aside_menu_input_pays_select">
               <option value=""></option>
               <option value="Afrique du Sud">Afrique du Sud</option>
               <option value="Brésil">Brésil</option>
@@ -106,32 +118,42 @@
           <fieldset>
             <legend>Condition</legend>
             <div class="aside_menu_input_condition">
-                <div class="aside_menu_input_condition_option">
-                    <input id="nouveau" type="checkbox" name="condition_nouveau" value="Nouveau" />
-                    <label for="nouveau">Nouveau</label>
-                </div>
-                <div class="aside_menu_input_condition_option">
-                    <input id="bon_etat" type="checkbox" name="condition_bon_etat" value="Bon état" />
-                    <label for="bon_etat">Bon état</label>
-                </div>
-                <div class="aside_menu_input_condition_option">
-                    <input id="endomage" type="checkbox" name="condition_endommage" value="Endommagé" />
-                    <label for="endomage">Endommagé</label>
-                </div>
+              <div class="aside_menu_input_condition_option">
+                <input
+                  id="nouveau"
+                  type="checkbox"
+                  name="nouveau"
+                  value="Nouveau"
+                />
+                <label for="nouveau">Nouveau</label>
+              </div>
+              <div class="aside_menu_input_condition_option">
+                <input id="bon_etat" type="checkbox" name="bon_etat" value="bon_etat" />
+                <label for="bon_etat">Bon état</label>
+              </div>
+              <div class="aside_menu_input_condition_option">
+                <input
+                  id="endomage"
+                  type="checkbox"
+                  name="endomage"
+                  value="Endomagé"
+                />
+                <label for="endomage">Endomagé</label>
+              </div>
             </div>
-        </fieldset>
-        
-        <fieldset>
-            <legend><abbr title="Copie officielle">Authentifié&nbsp;?</abbr></legend>
-            <div class="aside_menu_input_authentication">
-                <div class="aside_menu_input_authentication_options">
-                    <input id="Oui" type="radio" name="authentication" value="Oui" />
-                    <label for="Oui">Oui</label><br />
-                    <input id="non" type="radio" name="authentication" value="Non" />
-                    <label for="non">Non</label>
-                </div>
+          </div>
+
+          <div class="aside_menu_input_autentication">
+            <p><abbr title="Copie officielle">Authentifié&nbsp;?</abbr></p>
+
+            <div class="aside_menu_input_autentication_options">
+                <label for="authentifie">Oui</label>
+              <input id="authentifie" type="radio" name="Oui" value="Oui" />
+
+              <label for="authentifie">Non</label>
+                <input id="authentifie" type="radio" name="non" value="Non" />
             </div>
-        </fieldset>
+          </div>
 
           <button type="submit" class="btn">Soumettre</button>
         </form>
@@ -152,6 +174,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_china-lot-black_0003-–-kopija.webp"
               alt="timbre chine"
             />
@@ -164,7 +188,9 @@
         <div class="main-grid__tuile">
           <div>
             <img
-              src="../assets/img/timbres/timbre5.webp"
+              width="200"
+              height="200"
+              src="../assets/img/timbres/catalogue_canada-stamp-214-prince-of-wales-5-1935.webp"
               alt="timbre canada"
             />
             <h4>Stampee Senna</h4>
@@ -175,7 +201,12 @@
 
         <div class="main-grid__tuile">
           <div>
-            <img src="../assets/img/timbres/timbre2.webp" alt="Timbre Senna" />
+            <img
+              width="200"
+              height="200"
+              src="../assets/img/timbres/timbre2.webp"
+              alt="Timbre Senna"
+            />
             <h4>Stampee Senna</h4>
           </div>
           <a href="./produit.html" class="btn">Miser</a>
@@ -185,6 +216,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_canada-stamp-117a-king-george-v-10-1922.webp"
               alt="timbre canada"
             />
@@ -197,6 +230,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_Argentina-1924-50c-stamp-plate-error.webp"
               alt="timbre argentine"
             />
@@ -209,6 +244,8 @@
         <div class="main-grid__tuile">
           <div>
             <img
+              width="200"
+              height="200"
               src="../assets/img/timbres/catalogue_Brazil-CA-DP3_2-253x300.webp"
               alt="Brazil timbre"
             />
@@ -220,7 +257,12 @@
 
         <div class="main-grid__tuile">
           <div>
-            <img src="../assets/img/timbres/timbre3.webp" alt="Timbre Brasil" />
+            <img
+              width="200"
+              height="200"
+              src="../assets/img/timbres/timbre3.webp"
+              alt="Timbre Brasil"
+            />
             <h4>Stampee Senna</h4>
           </div>
           <a href="./produit.html" class="btn">Miser</a>
@@ -295,7 +337,8 @@
             y="0px"
             viewBox="0 0 810 810"
             style="enable-background: new 0 0 810 810"
-            xml:space="preserve" class="footer__logo"
+            xml:space="preserve"
+            class="footer__logo"
           >
             <style type="text/css">
               .st0 {
